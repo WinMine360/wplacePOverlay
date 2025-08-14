@@ -15,6 +15,9 @@
 - Add the last 2 numbers of the .png path **as one separate entry** to your config.json
 - Example: `https://backend.wplace.live/files/s0/tiles/1100/670.png` => `[ ["1100","670"], ... ]`
 
+### Install packages
+- Install Pillow and curl_cffi using `pip install Pillow` and `pip install curl_cffi`.
+
 ### Run server
 - Execute main.py in python
 - It will calculate the overlay and start an http server, which serves it to your browser

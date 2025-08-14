@@ -15,11 +15,14 @@
 - Add the last 2 numbers of the .png path **as one separate entry** to your config.json
 - Example: `https://backend.wplace.live/files/s0/tiles/1100/670.png` => `[ ["1100","670"], ... ]`
 
+### Install Python
+- Install Python. Search it up, I completely forgot how to install it with my stuff.
+
 ### Install packages
 - Install Pillow and curl_cffi using `pip install Pillow` and `pip install curl_cffi`.
 
 ### Run server
-- Execute main.py in python
+- Execute main.py in Python. Typically opening up the CMD in the root folder and using `python main.py` will do the job. If not, complain to me.
 - It will calculate the overlay and start an http server, which serves it to your browser
 - Keep this running while you want to use the overlay
 
@@ -32,6 +35,7 @@
 - In the ./blueprints folder there will be a copy of the canvas, created when you initially added its path to the config
 - Edit this (e.g. in GIMP) to only keep pixels you want to include in your overlay
 - These blueprints will only be *read* by the script, and *not manipulated automatically* after creation. Use them to set up your overlay by deleting everything you don't care about.
+- Don't worry about this, I'll just do it myself (although do remind me to update this git lmao).
 
 ### Patch browser
 - The javascript browser patch is inspired by [cfp](https://github.com/cfpwastaken/wplace-overlay)

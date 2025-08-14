@@ -34,7 +34,7 @@
 
 ### Results
 - After you run the browserpatch in console or by clicking the bookmark, the next time the browser updates the resources (few seconds at max.) it will be rerouted to your python server.
-- Pixels that don't satisfy your blueprint will be outlined with a thick and transparent pink border, and the desired pixel from the blueprint will be displayed with a light transparency.
+- Pixels that don't satisfy your blueprint will be outlined with a pink rectangle, and the desired pixel from the blueprint will be displayed with a light transparency.
 - Paint over it with the same color to fix.
 - The overlay should update automatically in a few seconds.
 

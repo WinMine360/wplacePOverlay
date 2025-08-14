@@ -31,11 +31,10 @@
 > You can download python from [Python.org](https://www.python.org/), and install the required packages using `pip install -r requirements.txt`.
 > There are guides on the internet that will help you with that.
 
-### Adjust blueprints
+### Adjust blueprints (Don't worry about this, I'll just do it myself (although do remind me to update this git lmao).)
 - In the ./blueprints folder there will be a copy of the canvas, created when you initially added its path to the config
 - Edit this (e.g. in GIMP) to only keep pixels you want to include in your overlay
 - These blueprints will only be *read* by the script, and *not manipulated automatically* after creation. Use them to set up your overlay by deleting everything you don't care about.
-- Don't worry about this, I'll just do it myself (although do remind me to update this git lmao).
 
 ### Patch browser
 - The javascript browser patch is inspired by [cfp](https://github.com/cfpwastaken/wplace-overlay)

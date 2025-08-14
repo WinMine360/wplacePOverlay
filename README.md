@@ -1,4 +1,4 @@
-## Originally forked from ([wplaceOverlay] https://github.com/clrfl/wplaceOverlay/tree/main). This is just my edited copy of it with blueprints to share with friends.
+## Originally forked from [wplaceOverlay](https://github.com/clrfl/wplaceOverlay/tree/main). This is just my edited copy of it with blueprints to share with friends.
 # wplaceOverlay
 - This is an overlay for [wplace](https://wplace.live/)
 - It reads blueprint files and will display the difference if the canvas is out of sync.

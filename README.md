@@ -22,7 +22,7 @@
 - Install Pillow and curl_cffi using `pip install Pillow` and `pip install curl_cffi`.
 
 ### Run server
-- Execute main.py in Python. Typically opening up the CMD in the root folder and using `python main.py` will do the job. If not, complain to me.
+- Execute main.py in Python. Typically opening up the command prompt in the root folder (click the path and type `CMD`) and using `python main.py` will do the job. If not, complain to me.
 - It will calculate the overlay and start an http server, which serves it to your browser
 - Keep this running while you want to use the overlay
 
